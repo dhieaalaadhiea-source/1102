@@ -4,11 +4,8 @@ body {
     color: #333333; 
     margin: 0;
     padding: 10px; /* تم تقليل الحشوة من 20 إلى 10 */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    /* أكواد تحسين جودة الخطوط في البلايستيشن */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+   
 }
   .header-logo {
       height: 130px; 

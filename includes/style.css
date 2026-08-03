@@ -112,7 +112,7 @@ button:hover:not(:disabled) {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 #kernel-options label {
@@ -133,7 +133,7 @@ input[type="radio"] {
     background-color: #fff;
     cursor: pointer;
     vertical-align: middle;
-    margin-right: 5px;
+    margin-right: 10px;
     transition: all 0.2s ease;
 }
 

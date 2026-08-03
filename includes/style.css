@@ -1,18 +1,19 @@
 /* التنسيق العام للصفحة والخلفية */
 body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    background-color: #f0f2f5; /* خلفية رمادية فاتحة جداً ولطيفة */
-    color: #333333; /* لون نص داكن مريح للعين */
+    background-color: #f0f2f5; 
+    color: #333333; 
     margin: 0;
-    padding: 20px;
+    padding: 10px; /* تم تقليل الحشوة من 20 إلى 10 */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    /* أكواد تحسين جودة الخطوط في البلايستيشن */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
   .header-logo {
-      height: 200px; 
+      height: 130px; 
     }
+    
 /* تنسيق العناوين */
 h1 {
     color: #2c3e50; /* أزرق داكن احترافي */
@@ -32,7 +33,7 @@ h3 {
 hr {
     border: 0;
     border-top: 1px solid #dcdde1;
-    margin: 20px auto;
+    margin: 10px auto; /* تم تقليل المسافة من 20 إلى 10 */
     width: 80%;
 }
 
@@ -40,13 +41,12 @@ hr {
 .btn-container {
     background-color: #ffffff;
     border-radius: 12px;
-    padding: 25px;
-    margin: 20px auto 30px auto;
+    padding: 15px; /* تم التقليل من 25 إلى 15 */
+    margin: 10px auto; /* تم التقليل لرفع الصندوق الأسود للأعلى */
     width: 80%;
     max-width: 600px;
-    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.411); /* ظل خفيف وأنيق */
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.411); 
 }
-
 /* تنسيق الزر الرئيسي (Jeilbrek) */
 button {
     background: #db393994; /* لون برتقالي مميز وجذاب */
@@ -88,19 +88,22 @@ button:hover:not(:disabled) {
 
 /* شاشة الأوامر (Console) */
 #console {
-    flex: 1; /* يأخذ ثلثي المساحة */
-    background: #505050; /* خلفية داكنة للكونسول */
-    color: #f5f7f8; /* نص أخضر كلاسيكي */
+    background: #505050; 
+    color: #f5f7f8; 
     font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    padding: 20px;
+    font-size: 14px; 
+    padding: 15px;
     text-align: left;
-    height: 250px;
+    height: 180px; /* تم التقليل من 250 إلى 180 */
     border-radius: 12px;
     overflow-y: auto;
     word-wrap: break-word;
-    box-shadow: inset 8px 10px 1.5px rgba(56, 59, 68, 0.829); /* ظل داخلي للعمق */
+    box-shadow: inset 8px 10px 1.5px rgba(56, 59, 68, 0.829); 
     border: none;
+    /* الأكواد التالية لضبط عرض الصندوق ليتطابق مع عرض الأزرار */
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto; 
 }
 
 /* خيارات الكيرنل */

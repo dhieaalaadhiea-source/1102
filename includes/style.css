@@ -1,16 +1,16 @@
-
+/* التنسيق العام للصفحة والخلفية */
 body {
-    background-color: #f0f2f5; 
-    color: #333333; 
+    background-color: #f0f2f5; /* خلفية رمادية فاتحة جداً ولطيفة */
+    color: #333333; /* لون نص داكن مريح للعين */
     margin: 0;
     padding: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
-
+/* تنسيق العناوين */
 h1 {
-    color: #2c3e50; 
+    color: #2c3e50; /* أزرق داكن احترافي */
     font-size: 32px;
     margin: 10px 0 5px 0;
     font-weight: 700;
@@ -23,7 +23,7 @@ h3 {
     margin: 0 0 20px 0;
 }
 
-
+/* الخط الفاصل */
 hr {
     border: 0;
     border-top: 1px solid #dcdde1;
@@ -31,7 +31,7 @@ hr {
     width: 80%;
 }
 
-
+/* حاوية الأزرار والخيارات */
 .btn-container {
     background-color: #ffffff;
     border-radius: 12px;
@@ -39,12 +39,12 @@ hr {
     margin: 20px auto 30px auto;
     width: 80%;
     max-width: 600px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* ظل خفيف وأنيق */
 }
 
-
+/* تنسيق الزر الرئيسي (Jeilbrek) */
 button {
-    background: #e67e22; 
+    background: #db393994; /* لون برتقالي مميز وجذاب */
     color: #ffffff;
     border: none;
     border-radius: 8px;
@@ -53,7 +53,7 @@ button {
     font-weight: bold;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.1s ease;
-    box-shadow: 0 4px 6px rgba(230, 126, 34, 0.3);
+    box-shadow: 0 6px 8px rgba(190, 70, 70, 0.3);
 }
 
 button:disabled, button:hover:disabled {
@@ -64,13 +64,13 @@ button:disabled, button:hover:disabled {
 }
 
 button:hover:not(:disabled) {
-    background: #d35400;
-    transform: translateY(-2px); 
+    background: #881a1a9a; /* لون أغمق عند مرور الماوس */
+    transform: translateY(-2px); /* حركة خفيفة للأعلى */
 }
 
-
+/* تخطيط القسم السفلي (الصورة ووحدة التحكم) */
 .main-layout {
-    display: flex; 
+    display: flex; /* استخدام Flexbox لتوزيع العناصر جنبًا إلى جنب */
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
@@ -79,9 +79,9 @@ button:hover:not(:disabled) {
     margin: 0 auto;
 }
 
-
+/* صندوق الصورة (صورة القطة أو الشعار) */
 .media-box {
-    flex: 1; 
+    flex: 1; /* يأخذ ثلث المساحة */
     background: #ffffff;
     padding: 15px;
     border-radius: 12px;
@@ -95,11 +95,11 @@ button:hover:not(:disabled) {
     border-radius: 8px;
 }
 
-
+/* شاشة الأوامر (Console) */
 #console {
-    flex: 2; 
-    background: #1e1e1e; 
-    color: #4af626; 
+    flex: 2; /* يأخذ ثلثي المساحة */
+    background: #6b6b6b; /* خلفية داكنة للكونسول */
+    color: #3690e4; /* نص أخضر كلاسيكي */
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
     padding: 20px;
@@ -108,11 +108,11 @@ button:hover:not(:disabled) {
     border-radius: 12px;
     overflow-y: auto;
     word-wrap: break-word;
-    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.5); /* ظل داخلي للعمق */
     border: none;
 }
 
-
+/* خيارات الكيرنل */
 #kernel-options {
     display: flex;
     justify-content: center;
@@ -128,7 +128,7 @@ button:hover:not(:disabled) {
     cursor: pointer;
 }
 
-
+/* تخصيص أزرار الاختيار (Radio buttons) */
 input[type="radio"] {
     -webkit-appearance: none;
     appearance: none;
@@ -145,11 +145,11 @@ input[type="radio"] {
 
 input[type="radio"]:checked {
     border-color: #3498db;
-    border-width: 5px; 
+    border-width: 5px; /* يعطي تأثير نقطة داخلية جميلة */
     background-color: #ffffff;
 }
 
-
+/* خيار الجيلبريك التلقائي */
 .autoJb {
     margin-top: 20px;
     color: #7f8c8d;
@@ -167,5 +167,5 @@ input[type="checkbox"] {
 }
 
 .mt-2 {
-    margin-top: 0; 
+    margin-top: 0; /* تم التعديل لأن المسافة تم التعامل معها في الحاوية */
 }

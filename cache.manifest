@@ -2,7 +2,7 @@ CACHE MANIFEST
 
 CACHE:
 index.html
-includes/NABEELLOGO.jpg
+includes/NABEELLOGO.svg
 includes/script.js
 includes/style.css
 src/payload.bin
